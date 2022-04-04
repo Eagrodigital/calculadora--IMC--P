@@ -1,9 +1,11 @@
 h2{
-    color: #D4D4D2;
+    color: #000000;
 }
 h1{
     margin-block-start: 0em; 
     color: white;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 .input_area{
     width: 100%;
@@ -19,27 +21,57 @@ textarea{
     margin-top: 2em;
 }
 .container{
-    background-color: #1C1C1C;
+    background-color: #b3cf7d;
     display: inline-flex;
-    padding: 1.5em;
+    padding: 2em;
     border-radius: 0.5em;
     flex-direction: column;
     align-items: center;
-    width: 20em;
+    width: 22em;
 }
 
 .area{
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
 button{
     height: 3em;
     width: 100%;
-    background-color: #4F1B46;
+    background-color: #0f3a04;
     border: none;
     color: white;
+    font-size: 1.5em;
+    border-radius: 0.5em;
 }
 button:hover{
     cursor: pointer;
+}
+body{
+    background: url(eagro2.jpg) no-repeat center center;
+    background-size: cover;
+}
+p{
+    color: #000000;
+}
+img{
+    width: 60px;
+    height:60px ;
+}
+.logo{
+    display: flex;
+}
+a{
+    width: 105px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(109, 33, 33);
+    text-align: center;
+    border-radius: 0.5em;
+    
 }
